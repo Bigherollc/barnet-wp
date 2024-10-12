@@ -1,0 +1,82 @@
+.handle-order-higher{
+  display: none;
+}
+.handle-order-lower{
+  display: none;
+}
+.edit-post-text-editor{
+	flex-grow: 0 !important;
+}
+.editor-post-text-editor{
+	display: none !important;
+}
+#postdivrich{
+	display: none;
+}
+
+.post-type-page #postdivrich, .post-type-post #postdivrich, .post-type-sample-request #postdivrich, .post-type-lab-request #postdivrich, .post-type-contact_us #postdivrich{
+	display: block;
+}
+
+#ia_coordinates{
+	background-color: lightgray;
+}
+#bn_concept_interactive_image_block{
+	float: left;
+	position: relative;
+}
+#bn_concept_interactive_image_block .ia_click{
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #0f0;
+	margin-top: -10px;
+    margin-left: -10px;
+}
+
+.post-type-sample-request .wp-list-table .row-actions, .post-type-sample-request #submitpost,.post-type-sample-request .wp-list-table .check-column, .post-type-sample-request .tablenav .bulkactions{
+	display: none;
+}
+
+.post-type-lab-request .wp-list-table .row-actions, .post-type-lab-request #submitpost,.post-type-lab-request .wp-list-table .check-column, .post-type-lab-request .tablenav .bulkactions{
+  display: none;
+}
+.post-type-contact_us .wp-list-table .row-actions, .post-type-contact_us #submitpost,.post-type-contact_us .wp-list-table .check-column, .post-type-contact_us .tablenav .bulkactions{
+  display: none;
+}
+
+#wp-admin-bar-new-content{
+	display: none;
+}
+.post-type-sample-request a.page-title-action, .post-type-lab-request a.page-title-action, .post-type-contact_us a.page-title-action{
+	display: none !important;
+}
+#menu-posts-sample-request > ul > li:nth-child(3) > a{
+	display:none;
+}
+#menu-posts-lab-request > ul > li:nth-child(3) > a{
+  display:none;
+}
+#menu-posts-contact_us > ul > li:nth-child(3) > a{
+  display:none;
+}
+
+.post-type-barnet-product #sub-concept-categorydiv, .post-type-barnet-product #attribute-setdiv, .post-type-barnet-formula #fattribute-setdiv{
+	display: none;
+}
+
+.misc-pub-modified #bn-timestamp-modified:before {
+	content: "\f145";
+	position: relative;
+	top: -1px;
+	font: normal 20px/1 dashicons;
+	speak: never;
+	display: inline-block;
+	margin-left: -1px;
+	padding-right: 3px;
+	vertical-align: top;
+	-webkit-font-smoothing: antialiased;
+	color: #82878c;
+}
+.user-edit-php .user-description-wrap{display: none;}

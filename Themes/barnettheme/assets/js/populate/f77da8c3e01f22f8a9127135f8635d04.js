@@ -1,0 +1,1 @@
+jQuery(function(t){var e=inlineEditPost.edit;inlineEditPost.edit=function(i){e.apply(this,arguments);var n=0;if("object"==typeof i&&(n=parseInt(this.getId(i))),n>0){var o=t("#edit-"+n),r=t("#post-"+n),d=t(".column-order",r).text();"Yes"==t(".column-featured",r).text()&&(featured_product=!0),t(':input[name="order"]',o).val(d)}}});

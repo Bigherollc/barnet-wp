@@ -1,0 +1,51 @@
+.block-cta {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: white;
+	padding: 45px 25px;
+	gap: 20px;
+	box-shadow: 0 0 20px 5px #ddf3f2;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+	.block-cta {
+		flex-direction: column;
+	}
+}
+
+.block-cta .block-cta__heading h4 {
+	color: #06494D;
+	font-size: 3rem;
+	font-weight: 500;
+}
+
+.block-cta form {
+	margin-bottom: 0;
+	display: flex;
+	gap: 20px;
+}
+
+.block-cta__form {
+	flex: 1;
+}
+
+.block-cta .form-control {
+	border-radius: 0;
+	border-width: 2px;
+}
+
+.block-cta .btn {
+	color: #fff;
+    background-color: #0d9990;
+	border-radius: 0;
+	border: 2px solid #06494d;
+}
+
+.block-cta .btn:hover {
+	color: #0d9990;
+	border: 2px solid #06494d;
+    background-color: #fff;
+}

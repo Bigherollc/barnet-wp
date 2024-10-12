@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162" height="140.296" viewBox="0 0 162 140.296">
+  <g id="Group_1" data-name="Group 1" transform="translate(214 31.148)">
+    <path id="Polygon" d="M81,0l70.148,40.5v81L81,162,10.852,121.5v-81Z" transform="translate(-52 -42) rotate(90)" fill="#0e6971"/>
+    <g id="Polygon_Copy" data-name="Polygon Copy" transform="translate(-66 -28) rotate(90)" fill="none" stroke-miterlimit="10">
+      <path d="M67,0l58.024,33.5v67L67,134,8.976,100.5v-67Z" stroke="none"/>
+      <path d="M 67 1.154693603515625 L 9.976303100585938 34.07734680175781 L 9.976303100585938 99.92265319824219 L 67 132.8453063964844 L 124.0236968994141 99.92265319824219 L 124.0236968994141 34.07734680175781 L 67 1.154693603515625 M 67 0 L 125.0236968994141 33.5 L 125.0236968994141 100.5 L 67 134 L 8.976303100585938 100.5 L 8.976303100585938 33.5 L 67 0 Z" stroke="none" fill="#bfe7e5"/>
+    </g>
+  </g>
+</svg>

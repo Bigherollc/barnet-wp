@@ -1,0 +1,198 @@
+page:
+    Pages:
+        active_landing_login:
+            title: 'Active Landing (Login)'
+            path: 'active-landing-login'
+            template: 'landing-page-active'
+
+        system_landing_login:
+            title: 'System Landing (Login)'
+            path: 'system-landing-login'
+            template: 'landing-page-system'
+
+        concept_landing_page:
+            title: 'Concept Landing'
+            path: 'concept-landing'
+            template: 'concept-landing-page'
+
+        color_landing_page:
+            title: 'Color By Barnet'
+            path: 'color-landing'
+            template: 'landing-page-main'
+
+        conscious_beauty_landing:
+            title: 'Conscious Beauty'
+            path: 'conscious-beauty'
+            template: 'landing-page-main'
+
+        derm_landing_page:
+            title: 'Derm'
+            path: 'derm-landing'
+            template: 'landing-page-main'
+
+        hair_landing_page:
+            title: 'Hair'
+            path: 'hair-landing'
+            template: 'landing-page-main'
+
+        formula_landing_login:
+            title: 'Formula Landing (Login)'
+            path: 'formula-landing-login'
+            template: 'landing-page-formula'
+
+        global_innovation_center:
+            title: 'Global Innovation Center'
+            path: 'global-innovation-center'
+            template: 'global-innovation-center'
+
+        terms_of_use:
+            title: 'Terms of use'
+            path: 'terms-of-use'
+            template: 'terms-of-use'
+            content: '<p>Welcome to the Barnet Products website ("Site"). Your access to and use of this Site is subject to the following terms and conditions ("Terms of Use") and all applicable laws. By accessing and using this Site, you accept the following terms and conditions, without limitation or qualification.</p><p class="size-ml">Privacy</p><p>Please review our Privacy Policy, which also governs your visit to this Site and which is incorporated herein by reference.</p><p class="size-ml">Site Contents</p><p>All materials, including all images, illustrations, designs, icons, photographs, video clips, text, software and other materials that are part of this Site (collectively, the "Contents") are owned exclusively by Barnet Products and/or its content providers and are protected by United States and international law. The Site as a whole, including the "look and feel," compilation and arrangement of the Contents and trade dress, is owned exclusively by Barnet Products and is protected by United States and international law. Barnet Products Corp and other Barnet Products marks, logos and designs appearing on this Site are the exclusive trademarks and service marks of Barnet Products. All other trademarks and service marks appearing on this Site not owned by Barnet Products are the property of their respective owners. You may not use any such marks for any purpose without the express prior written permission of the owner.</p><p class="size-ml">Use of Site; Restrictions</p><p>This Site and its Contents may be used solely to research and learn about Barnet’s products and services. Restricted Sections of this Site that require login are limited to Barnet authorized registered users. Registrations are not transferrable, and registered user agree not to share user names and passwords with others and to take reasonable care to not allow others access to this information. Registered users are granted access to the site and its restricted areas and content solely for the purposes listed above and in conjunction with the role/position/company listed on the registration request. On any change of role/position/company registered users authorization to access restricted content is revoked, an registered users must update profile, or notify Barnet Products of new status. Barnet reserves the right to revoke registrations and related authorized use at any time for any reason. Purposely gaining unauthorized access to restricted sections and content of this Site is prohibited.</p><p>Authorized users may view the Contents displayed on the Site, and download a copy of Contents specifically designated for downloading from this Site, for the purposes listed above only; provided, however, that you may not alter any such Contents in any way, including, but not limited to, removal or modification of any copyright or other proprietary notices affixed thereto. No right, title or interest in any such materials, software or other Contents is transferred to you as a result of any such downloading or copying. You may not reproduce, duplicate, publish, frame, transmit, distribute, display, modify, create derivative works from, sell, license or participate in any of the foregoing or exploit in any way, in whole or in part, any of the Contents, the Site or any related software. Use of spiders, robots and similar data gathering and extraction tools is expressly prohibited. Any rights not expressly granted herein are reserved.</p><p class="size-ml">No Creation of Services Relationship</p><p>The information provided on this Site is for informational purposes only and does not create a business or professional services relationship between you and Barnet Products.</p><p class="size-ml">Accuracy of Information</p><p>While Barnet Products uses reasonable efforts to furnish accurate and up-to-date information, Barnet Products does not warrant that any information contained in this Site is accurate, complete, reliable, current or error-free. Barnet Products assumes no liability or responsibility for any errors or omissions in this Site. Barnet Products expressly disclaims any duty to update or revise the Contents of this Site, although Barnet Products may modify the Contents at any time without notice. Any use you make of the information provided on this Site is entirely at your own risk.</p><p class="size-ml">Disclaimer of Warranties; Limitations of Liability</p><p>THIS SITE AND ITS CONTENTS ARE PROVIDED "AS IS" AND "AS AVAILABLE," AND Barnet Products MAKES NO REPRESENTATIONS OR WARRANTIES OF ANY KIND WITH RESPECT TO THIS SITE OR ANY SITE OR SERVICE ACCESSIBLE THROUGH THIS SITE. TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, Barnet Products EXPRESSLY DISCLAIMS ALL EXPRESS AND IMPLIED WARRANTIES INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT WILL Barnet Products BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, CONSEQUENTIAL, OR OTHER DAMAGES OF ANY KIND (INCLUDING, BUT NOT LIMITED TO, LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF PROGRAMS OR DATA) ARISING OUT OF OR IN CONNECTION WITH THIS SITE, ANY CONTENT ON OR ACCESSED THROUGH THIS SITE, ANY SITE OR SERVICE LINKED TO THIS SITE, OR ANY COPYING, DISPLAY OR USE THEREOF, EVEN IF Barnet Products HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING DISCLAIMERS AND LIMITATIONS OF LIABILITY SHALL APPLY WITHOUT REGARD TO THE FORM OF ACTION AND WHETHER IN CONTRACT, TORT, NEGLIGENCE, STRICT LIABILITY OR OTHERWISE. CERTAIN STATE LAWS DO NOT ALLOW LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS, EXCLUSIONS OR LIMITATIONS MAY NOT APPLY, AND YOU MIGHT HAVE ADDITIONAL RIGHTS.</p><p class="size-ml">Feedback and Other Suggestions, Applicable Laws; Exclusive Jurisdiction</p><p>These Terms of Use and your use of this Site shall be governed by the laws of the State of New Jersey, USA, without regard to any conflict of law provisions. Subject to the dispute resolution procedures set forth below, any dispute arising out of or relating to these Terms of Use or your access to or use of this Site shall be resolved exclusively by the state and/or federal courts located in New York, New York, USA, and you expressly consent to the exclusive personal jurisdiction of such courts.</p><p class="size-ml">Dispute Resolution</p><p>Any controversy or claim arising out of or relating to these Terms of Use or breach hereof, or otherwise relating to this Site (with the exception of injunctive relief sought by Barnet Products for any violation of Barnet Products\'s proprietary rights), shall be settled by arbitration in accordance with the then-current rules of the American Arbitration Association. Before entering into arbitration, the parties shall each appoint an arbitrator, and these two arbitrators shall select a third arbitrator to be a member of the panel. Should the two arbitrators not be able to agree on a choice of the third, then the American Arbitration Association shall make the appointment of a person who is neutral to the parties. None of the arbitrators shall be officers or employees of the parties. Such arbitrators shall be experts in the computer/information technology field. The cost of arbitration, including fees per arbitrator, shall be borne equally by the parties. The location of arbitration shall be New York, New York, USA. To the fullest extent permitted by applicable law, no such arbitration shall be joined to an arbitration involving any other party subject to these Terms of Use, whether through class arbitration proceedings or otherwise.</p><p class="size-ml">Termination or Suspension of Access</p><p>Barnet Products reserves the right to terminate, suspend or otherwise restrict your access to this Site, or any portion hereof, at any time for any reason whatsoever including, but not limited to, your violation of these Terms of Use or any inappropriate or unlawful behavior on your part.</p><p class="size-ml">Modifications</p><p>Barnet Products reserves the right to modify these Terms of Use at any time for any reason upon posting. By continuing to use this Site after any changes are posted, you acknowledge your acceptance of such revised Terms of Use.</p><p class="size-ml">Miscellaneous</p><p>If there is a determination that any provision of these Terms of Use is invalid or unenforceable, that determination will not affect the rest of these Terms of Use, and these Terms of Use shall be deemed amended to the minimum extent necessary to make them valid and enforceable. The failure of Barnet Products to exercise or enforce any right or provision of these Terms of Use shall not constitute a waiver of such right or provision. Regardless of any statute or law to the contrary, any claim or cause of action arising out of or related to use of this Site or under these Terms of Use must be filed within one (1) year after such claim or cause of action arose or be forever barred. The section titles in these Terms of Use are for convenience only and have no legal or contractual effect. Minors</p><p>This Site is not intended for use by or availability to minors. IF YOU ARE NOT LEGALLY AN ADULT UNDER THE LAW WHERE YOU LIVE OR IF YOU ARE UNDER 13 YEARS OF AGE, YOU MAY NOT ACCESS OR USE THIS SITE.</p><p class="size-ml">Contact</p><p>In the event of any question relating to this Site, please <a href="/contact-us/">contact us.</a></p>'
+
+        about_us:
+            title: 'About Us'
+            path: 'about-us'
+            template: 'about-us'
+
+        contact_us:
+            title: 'Contact Us'
+            path: 'contact-us'
+            template: 'contact-us'
+
+        search_logout:
+            title: 'Search'
+            path: 'search'
+            template: 'search'
+
+        resource_landing_login:
+            title: 'Resource Landing (Login)'
+            path: 'resource-landing-login'
+            template: 'landing-page-resource'
+
+        no_samples_selected:
+            title: 'No Samples Selected'
+            path: 'no-samples-selected'
+            template: 'no-samples-selected'
+
+        samples_selected:
+            title: 'Samples Selected'
+            path: 'samples-selected'
+            template: 'samples-selected'
+
+        lab_day_request:
+            title: 'Lab Day Request'
+            path: 'lab-day-request'
+            template: 'lab-day-request'
+
+        lab_training:
+            title: 'Lab Training'
+            path: 'lab-training-page'
+            template: 'lab-training-page'
+
+    Enabled: false
+
+barnet-resource:
+    Categories:
+        product:
+            cat_name: 'Products'
+            taxonomy: 'resource-folder'
+            category_description: 'Products'
+            children:
+                msds:
+                    cat_name: 'SDS'
+                    category_description: 'SDS'
+
+                spec:
+                    cat_name: 'SPEC'
+                    category_description: 'SPEC'
+
+                kiss:
+                    cat_name: 'KISS'
+                    category_description: 'KISS'
+
+                dossier:
+                    cat_name: 'Dossier'
+                    category_description: 'Dossier'
+
+                Presentation:
+                    cat_name: 'Presentation'
+                    category_description: 'Presentation'
+                Formula:
+                    cat_name: 'Formula'
+                    category_description: 'Formula'
+
+                Sustainable_Snapshots:
+                    cat_name: 'Sustainable Snapshots'
+                    category_description: 'Sustainable Snapshots'
+                Other_Products_Documents:
+                    cat_name: 'Other Product\'s Documents'
+                    category_description: 'Other Product\'s Documents'
+
+                Other:
+                    cat_name: 'Other'
+                    category_description: 'Other'
+                videos:
+                    cat_name: 'Videos'
+                    category_description: 'videos'
+
+        formulas:
+            cat_name: 'Formulas'
+            taxonomy: 'resource-folder'
+            category_description: 'Formulas'
+            children:
+                sheet:
+                    cat_name: 'Sheet'
+                    category_description: 'Sheet'
+                card:
+                    cat_name: 'Card'
+                    category_description: 'Card'
+
+        concepts:
+            cat_name: 'Concepts'
+            taxonomy: 'resource-folder'
+            category_description: 'Concepts'
+            children:
+                concept_presentions:
+                    cat_name: 'Concept Presentions'
+                    category_description: 'Concept Presentions'
+                concept_videos:
+                    cat_name: 'Concept Videos'
+                    category_description: 'Concept Videos'
+
+    Enabled: true
+
+barnet-formula:
+    Categories:
+        formula:
+            cat_name: 'Type'
+            taxonomy: 'formula-category'
+            category_description: 'Type'
+            children:
+
+    Enabled: true
+
+barnet-role:
+    Pages:
+        administrator:
+            title: 'Administrator'
+            path: 'barnet-role-administrator'
+
+        editor:
+            title: 'Editor'
+            path: 'barnet-role-editor'
+
+        author:
+            title: 'Author'
+            path: 'barnet-role-author'
+
+        contributor:
+            title: 'Contributor'
+            path: 'barnet-role-contributor'
+
+        subscriber:
+            title: 'Subscriber'
+            path: 'barnet-role-subscriber'
+
+    Enabled: false

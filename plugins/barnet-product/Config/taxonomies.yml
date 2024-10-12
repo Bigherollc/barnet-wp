@@ -1,0 +1,6 @@
+sub-concept-category:
+    display:
+        fields:
+          - name
+          - slug
+        separation: " - "

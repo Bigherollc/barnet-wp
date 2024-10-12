@@ -1,0 +1,86 @@
+setting:
+    barnet-product:
+        post_title: 100
+        inci_name: 20
+        product_description: 20
+        product_description_logged: 20
+        product_keyword: 50
+        product_keyword_custom: 50
+        #taxonomies:
+        #    product-category: 20
+        #relationship:
+        #    products_to_pattributes:
+        #        pattributes: 20
+
+    barnet-formula:
+        post_title: 100
+        formula_description: 20
+        formula_keyword: 50
+        formula_keyword_custom: 50
+        #taxonomies:
+        #    formula-category: 20
+
+    barnet-concept:
+        post_title: 100
+        concept_keyword: 50
+        concept_keyword_custom: 50
+        concept_description: 20
+
+    barnet-resource:
+        post_title: 100
+        resource_keyword: 50
+        resource_keyword_custom: 50
+        resource_description: 20
+
+advance:
+    percent_point:
+        filter:
+            - product_description
+            - product_description_logged
+            - formula_description
+            - concept_description
+            - resource_description
+
+        active: false
+
+    unique_point:
+        filter:
+            - post_title
+            - inci_name
+            - product_keyword
+            - product_keyword_custom
+            - formula_keyword
+            - formula_keyword_custom
+            - concept_keyword
+            - concept_keyword_custom
+            - resource_keyword
+            - concept_keyword_custom
+            - product_description
+            - product_description_logged
+            - formula_description
+            - concept_description
+            - resource_description
+
+        active: true
+
+extra:
+    modified_date:
+        field: post_modified
+        value: 608400
+        point: 1
+        active: false
+
+relationship:
+    barnet-concept:
+        subconcept_filter:
+            barnet-pconcept:
+                relation_key: pconcepts_to_concepts
+                taxonomy:
+                    sub-concept-category:
+                        name: 80
+
+            advance:
+                unique_point: true
+
+tools:
+    show_setting: false

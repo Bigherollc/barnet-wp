@@ -1,0 +1,59 @@
+/*
+Theme Name: Barnet Theme
+Theme URI:
+Author: Wordpress
+Author URI: https://wordpress.org
+Description: Blank WordPress starter theme with the right folder and file structure
+Version: 1.0
+*/
+
+.post {
+  background-color: azure;
+}
+.post-container--detail {
+  padding-bottom: 6.5rem;
+}
+.post-container {
+  min-height: 100vh;
+  padding: 6rem 0 14.3rem;
+    padding-bottom: 14.3rem;
+}
+.single-post .inside-article .entry-title {
+  text-align: center;
+  color: #15b562;
+}
+
+.single-post .entry-header {
+  text-align: center;
+  color: #595959;
+  border-bottom-width: 3px;
+  border-bottom-color: #15b562;
+  border-bottom-style: solid;
+  padding: 10px;
+}
+
+.single-post .author-name {
+  font-weight: 600;
+}
+blockquote {
+font-size: 0.75rem;
+line-height: 1rem;
+padding: 0.875rem 0;
+margin-bottom: 0.875rem;
+border-top: 1px #fcb51e solid;
+border-bottom: 1px #fcb51e solid;
+}
+
+.pullquote {
+width: 250px;
+max-width: 50%;
+margin-top: 0;
+}
+
+.pullquote.alignright {
+margin-right: 0;
+}
+
+.alignright {
+float: right;
+}

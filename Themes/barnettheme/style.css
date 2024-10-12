@@ -1,0 +1,86 @@
+/*
+Theme Name: Barnet Theme
+Theme URI:
+Author: Wordpress
+Author URI: https://wordpress.org
+Description: Blank WordPress starter theme with the right folder and file structure
+Version: 1.9
+*/
+.page .entry-header {
+  display: none;
+}
+body.--fit-vh.--bg-gradient.loginbg.--scroll-11 {
+    background-image: url(https://barnet-cosmetics.com/wp-content/uploads/2024/09/bg-sign-in-1.png);
+    background-color: #cccccc;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.menu-item-has-children:hover   ul.sub-menu {
+    display: block  !important
+}
+
+ul.sub-menu  a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color:#0d9990;
+}
+ul#menu-topbar-mobie li {
+    display: none;
+}
+ul#menu-topbar-mobie li.no-login{
+    display: block;
+}
+@media screen and (min-width: 700px) {
+    ul.sub-menu {
+        display: none !important;
+        position: absolute;
+        background-color: #fff;
+        box-shadow: 0 0 0.7rem rgba(0,0,0,.11);
+        padding: 2.4rem 2.1rem 3.8rem 1.6rem;
+    }
+    ul.sub-menu  a {
+        color:#000;
+        display: block;
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        font-weight: 500;
+        padding-left: 0;
+        padding-right: 0;
+        min-width: 16.25rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    ul#menu-topbar i {
+        display: none !important;
+    }
+    .login-block li {
+        display: block !important;
+    }
+    .login-block li.no-login {
+        display: none !important;
+    }
+    body ul.sub-menu {
+        display: block !important;
+        position: relative;
+        background: transparent;
+        padding-left: 0;
+        padding-right: 0 !important;
+        box-shadow: none !important;
+    }
+}
+.ico-about-us { 
+  width:100px; display:block; height:18px; color:white; text-decoration:none; padding-left:18px;  
+ }
+.ico-about-us:before {
+ content: '';
+ background:url(/wp-content/themes/barnettheme/assets/images/icons/icon-about-us.png);
+ background-size:cover; position:absolute; width:21px; height:21px; margin-left:-21px;
+ }
+     

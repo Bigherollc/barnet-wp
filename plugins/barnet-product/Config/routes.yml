@@ -1,0 +1,462 @@
+Routes:
+    JWTAuth\BarnetAuth:
+        login:
+            route: login
+            method: POST
+            callback: get_token
+            params:
+                email: true
+                password: true
+        refresh:
+            route: refresh
+            method: POST
+            callback: refresh_token
+            params:
+                token: false
+        change_password:
+            route: change-password
+            method: POST
+            callback: changePassword
+            params:
+                password: true
+                new_password: true
+                re_new_password: true
+
+    BarnetRestAPI:
+        user:
+            route: user
+            method: GET
+            callback: getUser
+            
+        users:
+            route: users
+            method: GET
+            callback: getUsers            
+     
+
+        author:
+            route: user/(?P<id>\d+)
+            method: GET
+            callback: getAuthor
+
+        customers:
+            route: customers
+            method: GET
+            callback: getCustomers
+
+        customer_products:
+            route: customer/(?P<id>\d+)/products
+            method: GET
+            callback: getCustomerProduct
+
+        landing_concept:
+            route: landing/concept
+            method: GET
+            callback: getConceptLanding
+
+        taxonomies:
+            route: taxonomies
+            method: GET
+            callback: getTaxonomies
+            params:
+                type: false
+                product_type: false
+                has_meta: false
+
+        sync_data:
+            route: sync
+            method: GET
+            callback: sync
+
+        sync_annoucements:
+            route: sync_annoucements
+            method: GET
+            callback: getSyncAnnoucements
+
+        sync_codeLists:
+            route: sync_codeLists
+            method: GET
+            callback: getSyncCodeLists
+
+        sync_customer:
+            route: sync_customer
+            method: GET
+            callback: getSyncCustomer
+
+        sync_concepts:
+            route: sync_concepts
+            method: GET
+            callback: getSyncConcepts
+        sync_conceptBooks:
+            route: sync_conceptBooks
+            method: GET
+            callback: getSyncConceptBooks
+
+        sync_relationships:
+            route: sync_relationships
+            method: GET
+            callback: getRelationShips
+
+        products:
+            route: products
+            method: GET
+            callback: getProducts
+            params:
+                type: false
+                taxonomy: false
+                cid: false
+
+        product_detail:
+            route: product/(?P<id>\d+)
+            method: GET
+            callback: getProduct
+
+        formulas:
+            route: formulas
+            method: GET
+            callback: getFormulas
+            params:
+                cid: false
+
+        formulas_sync:
+            route: formulas_sync
+            method: GET
+            callback: getFormulas
+            params:
+                cid: false
+
+        formulas_detail:
+            route: formula/(?P<id>\d+)
+            method: GET
+            callback: getFormula
+
+        formulas_sync_detail:
+            route: formulas_sync/(?P<id>\d+)
+            method: GET
+            callback: getFormula
+
+        formulas_sync_categories:
+            route: formulas_sync_categories
+            method: GET
+            callback: getFormulaCategories
+
+        formulas_sync_attributesets:
+            route: formulas_sync_attributesets
+            method: GET
+            callback: getFormulaAttributeSets
+
+        formulas_sync_attributes:
+            route: formulas_sync_attributes
+            method: GET
+            callback: getFormulaAttributes
+
+        concepts:
+            route: concepts
+            method: GET
+            callback: getConcepts
+
+        concepts_sync:
+            route: concepts_sync
+            method: GET
+            callback: getConcepts
+
+        concept_detail:
+            route: concept/(?P<id>\d+)
+            method: GET
+            callback: getConcept
+
+        concepts_sync_detail:
+            route: concepts_sync/(?P<id>\d+)
+            method: GET
+            callback: getConcept
+
+        concepts_sync_section:
+            route: concepts_sync_section
+            method: GET
+            callback: getConceptCategories
+
+        concepts_sync_book:
+            route: concepts_sync_book
+            method: GET
+            callback: getConceptBooks
+        concepts_book:
+            route: conceptbooks
+            method: GET
+            callback: getConceptBooks
+
+        interactive_diagrams:
+            route: concept_interactive
+            method: GET
+            callback: getConcept_Interactive
+
+        product_concepts:
+            route: productconcepts
+            method: GET
+            callback: getProductConcepts
+
+        resources:
+            route: resources
+            method: GET
+            callback: getResources
+
+        resources_sync:
+            route: resources_sync
+            method: GET
+            callback: getResourcesSync
+
+        resource_detail:
+            route: resource/(?P<id>\d+)
+            method: GET
+            callback: getResource
+
+        resource_landing:
+            route: resources/landing
+            method: GET
+            callback: getResourceLanding
+
+        product_conceptmapping:
+            route: productconceptmapping
+            method: GET
+            callback: getProductPConcept
+
+        product_attributesets:
+            route: productattributesets
+            method: GET
+            callback: getProductAttributeSets
+
+        product_subconcepts:
+            route: productsubconcepts
+            method: GET
+            callback: getProductSubConceptCategories
+        product_categories:
+            route: productcategories
+            method: GET
+            callback: getProductCategories
+        product_attributes:
+            route: productattributes
+            method: GET
+            callback: getProductAttributes
+
+        product_attribute:
+            route: productattribute/(?P<id>\d+)
+            method: GET
+            callback: getProductAttribute
+
+        pages:
+            route: pages
+            method: GET
+            callback: getPages
+
+        page:
+            route: page/(?P<id>\d+)
+            method: GET
+            callback: getPage
+
+        check_email:
+            route: checkemail
+            method: POST
+            callback: checkExistEmailUser
+        update_newsletter:
+            route: updatenewsletter
+            method: POST
+            callback: updateNewsletter
+
+        list_landing_page:
+            route: listlandingpage
+            method: GET
+            callback: getListLandingPage
+
+        annoucements:
+            route: annoucements
+            method: GET
+            callback: getAnnoucements
+
+        lab_trainings:
+            route: lab_trainings
+            method: GET
+            callback: getLab_trainings
+
+        sample_requests:
+            route: sample_requests
+            method: GET
+            callback: getSample_requests
+
+        lab_request:
+            route: lab_request
+            method: GET
+            callback: getLab_request
+
+        post_list:
+            route: post_list
+            method: GET
+            callback: getPostList
+ 
+        post_categories:
+            route: post_categories
+            method: GET
+            callback: getPostCategories
+
+        post_tags_list:
+            route: posttagslist
+            method: GET
+            callback: getPostTagList
+
+        contact_us:
+            route: contact_us
+            method: GET
+            callback: getContact_us
+        
+        medias:
+            route: medias
+            method: GET
+            callback: getPubMedia
+
+        search:
+            route: search
+            method: GET
+            callback: search
+            params:
+                q: false
+                type: false
+
+        data:
+            route: data
+            method: GET
+            callback: getData
+            params:
+                type: false
+                ias: false
+
+        searchData:
+            route: searchData
+            method: GET
+            callback: getSearData
+            params:
+                type: false
+                ias: false
+
+        new_data:
+            route: new-data
+            method: GET
+            callback: getNewData
+
+        search_setting:
+            route: search/setting
+            method: GET
+            callback: searchSetting
+
+        countries:
+            route: countries
+            method: GET
+            callback: getCountries
+
+        sample_request:
+            route: sample-request
+            method: POST
+            callback: sampleRequest
+            params:
+                first_name: true
+                last_name: true
+                email: true
+                company_name: true
+                address: true
+                address_optional: false
+                country: true             
+                province: true
+                city: true
+                postal_code: true
+                phone: true
+                note: false
+                phone_optional: false
+                newsletter: false
+                about_us: false
+                selected_sample: true
+
+        external_attachment_url:
+            route: attachment
+            method: GET
+            callback: getAttachmentURL
+        external_attachment_url_title:
+            route: attachment/(?P<path>[\w-]+)
+            method: GET
+            callback: getAttachmentURL
+
+        external_pub_attachment_url:
+            route: pubattachment
+            method: GET
+            callback: getPubAttachmentURL
+
+        external_pub_attachment_url_title:
+            route: pubattachment/(?P<path>[\w-]+)
+            method: GET
+            callback: getPubAttachmentURL
+
+        proxy_attachment_url_title:
+            route: proxy_attachment/(?P<path>[\w-]+)
+            method: GET
+            callback: getProxyAttachmentURL
+
+        rest_log_read:
+            route: getrestlog
+            method: GET
+            callback: getDebug
+            params:
+                id: false
+
+        rest_log_write:
+            route: restlog
+            method: POST
+            callback: postDebug
+            params:
+                body: true
+
+Whitelist:
+    - /wp-json/barnet/v1/login
+    - /wp-json/barnet/v1/refresh
+    - /wp-json/barnet/v1/countries
+    - /wp-json/barnet/v1/products
+    - /wp-json/barnet/v1/product*
+    - /wp-json/barnet/v1/concepts
+    - /wp-json/barnet/v1/concept*
+    - /wp-json/barnet/v1/taxonomies
+    - /wp-json/barnet/v1/checkemail
+    - /wp-json/barnet/v1/listlandingpage
+    - /wp-json/barnet/v1/data
+    - /wp-json/barnet/v1/users
+    - /wp-json/barnet/v1/new-data
+    - /wp-json/barnet/v1/medias
+    - /wp-json/barnet/v1/search
+    - /wp-json/barnet/v1/search/setting
+    - /wp-json/barnet/v1/attachment
+    - /wp-json/barnet/v1/attachment*
+    - /wp-json/barnet/v1/getrestlog
+    - /wp-json/barnet/v1/resources
+    - /wp-json/barnet/v1/resources_sync
+    - /wp-json/barnet/v1/sync_relationships
+    - /wp-json/barnet/v1/formulas_sync
+    - /wp-json/barnet/v1/formulas_sync*
+    - /wp-json/barnet/v1/concepts_sync
+    - /wp-json/barnet/v1/concepts_sync*
+    - /wp-json/barnet/v1/concept_interactive
+    - /wp-json/barnet/v1/sync_codeLists
+    - /wp-json/barnet/v1/sync_customer
+    - /wp-json/barnet/v1/sync_annoucements
+    - /wp-json/barnet/v1/lab_trainings
+    - /wp-json/barnet/v1/sample_requests
+    - /wp-json/barnet/v1/lab_request
+    - /wp-json/barnet/v1/contact_us
+    - /wp-json/barnet/v1/post_list
+    - /wp-json/barnet/v1/post_categories
+    - /wp-json/barnet/v1/posttagslist
+    - /wp-json/barnet/v1/pubattachment
+    - /wp-json/barnet/v1/pubattachment*
+    
+    
+
+Cachelist:
+   
+    - new-data
+    - formulas
+    - concepts
+    - resources
+    - search
